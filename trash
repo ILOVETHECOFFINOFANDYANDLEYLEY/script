@@ -317,7 +317,7 @@ UICorner_12.Parent = TextButton_3
 
 -- Scripts:
 
-local function LCENYWA_fake_script() -- ScreenGui.gui open and close keybind 
+local function SCQGZ_fake_script() -- ScreenGui.gui open and close keybind 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local main = script.Parent
@@ -334,8 +334,8 @@ local function LCENYWA_fake_script() -- ScreenGui.gui open and close keybind
 	
 	
 end
-coroutine.wrap(LCENYWA_fake_script)()
-local function AIGG_fake_script() -- fc.LocalScript 
+coroutine.wrap(SCQGZ_fake_script)()
+local function TATZHR_fake_script() -- fc.LocalScript 
 	local script = Instance.new('LocalScript', fc)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -345,8 +345,8 @@ local function AIGG_fake_script() -- fc.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AIGG_fake_script)()
-local function RNZWT_fake_script() -- fc_2.LocalScript 
+coroutine.wrap(TATZHR_fake_script)()
+local function OMWL_fake_script() -- fc_2.LocalScript 
 	local script = Instance.new('LocalScript', fc_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -356,8 +356,8 @@ local function RNZWT_fake_script() -- fc_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RNZWT_fake_script)()
-local function WJLSUKA_fake_script() -- lobbyteleport.lobby 
+coroutine.wrap(OMWL_fake_script)()
+local function RJEIEMT_fake_script() -- lobbyteleport.lobby 
 	local script = Instance.new('LocalScript', lobbyteleport)
 
 	wait(1)
@@ -381,4 +381,4 @@ local function WJLSUKA_fake_script() -- lobbyteleport.lobby
 	
 	
 end
-coroutine.wrap(WJLSUKA_fake_script)()
+coroutine.wrap(RJEIEMT_fake_script)()
