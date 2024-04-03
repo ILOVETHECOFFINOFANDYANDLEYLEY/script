@@ -13,38 +13,32 @@ local UIGradient_3 = Instance.new("UIGradient")
 local ogcum = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local UIGradient_4 = Instance.new("UIGradient")
-local cum2 = Instance.new("TextButton")
+local discord = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 local UIGradient_5 = Instance.new("UIGradient")
-local cum4 = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local UIGradient_6 = Instance.new("UIGradient")
-local cum3 = Instance.new("TextButton")
-local UIGradient_7 = Instance.new("UIGradient")
-local UICorner_7 = Instance.new("UICorner")
 local tab = Instance.new("Frame")
 local title_2 = Instance.new("TextLabel")
 local UIPadding_2 = Instance.new("UIPadding")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local fc_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
 local UICorner_8 = Instance.new("UICorner")
 local UIGradient_8 = Instance.new("UIGradient")
-local fc_2 = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local UIGradient_9 = Instance.new("UIGradient")
-local UICorner_10 = Instance.new("UICorner")
-local UIGradient_10 = Instance.new("UIGradient")
 local andyfromtcoaal = Instance.new("ImageLabel")
 local TextButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local lobbyteleport = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local UIGradient_11 = Instance.new("UIGradient")
-local TextButton_2 = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local UIGradient_12 = Instance.new("UIGradient")
 local TextButton_3 = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local UIGradient_13 = Instance.new("UIGradient")
-local TextButton_4 = Instance.new("TextButton")
-local UIGradient_14 = Instance.new("UIGradient")
-local UICorner_14 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local UICorner_12 = Instance.new("UICorner")
 
 --Properties:
 
@@ -56,7 +50,7 @@ opening.Parent = ScreenGui
 opening.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 opening.BorderColor3 = Color3.fromRGB(0, 0, 0)
 opening.BorderSizePixel = 0
-opening.Position = UDim2.new(0.192963704, 0, 0.0491808653, 0)
+opening.Position = UDim2.new(0.193643957, 0, 0.05771745, 0)
 opening.Size = UDim2.new(0.699999988, 0, 0.899999976, 0)
 
 title.Name = "title"
@@ -67,7 +61,7 @@ title.BorderSizePixel = 0
 title.Position = UDim2.new(0.339164227, 0, 0.032520324, 0)
 title.Size = UDim2.new(0.300000012, 0, 0.064000003, 64)
 title.Font = Enum.Font.SourceSans
-title.Text = "placeholder name"
+title.Text = "void"
 title.TextColor3 = Color3.fromRGB(170, 158, 149)
 title.TextScaled = true
 title.TextSize = 14.000
@@ -129,10 +123,10 @@ ogcum.Parent = opening
 ogcum.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ogcum.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ogcum.BorderSizePixel = 0
-ogcum.Position = UDim2.new(0.181729838, 0, 0.356368572, 0)
-ogcum.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
+ogcum.Position = UDim2.new(0.19436346, 0, 0.327913284, 0)
+ogcum.Size = UDim2.new(0.601544201, 0, 0.495203316, 0)
 ogcum.Font = Enum.Font.SourceSans
-ogcum.Text = "cum"
+ogcum.Text = "made by error"
 ogcum.TextColor3 = Color3.fromRGB(0, 0, 0)
 ogcum.TextScaled = true
 ogcum.TextSize = 14.000
@@ -145,68 +139,26 @@ UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fr
 UIGradient_4.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
 UIGradient_4.Parent = ogcum
 
-cum2.Name = "cum 2"
-cum2.Parent = opening
-cum2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cum2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-cum2.BorderSizePixel = 0
-cum2.Position = UDim2.new(0.571428597, 0, 0.356368572, 0)
-cum2.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
-cum2.Font = Enum.Font.SourceSans
-cum2.Text = "cum"
-cum2.TextColor3 = Color3.fromRGB(0, 0, 0)
-cum2.TextScaled = true
-cum2.TextSize = 14.000
-cum2.TextWrapped = true
+discord.Name = "discord"
+discord.Parent = opening
+discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discord.BorderSizePixel = 0
+discord.Position = UDim2.new(0.333333343, 0, 0.869918704, 0)
+discord.Size = UDim2.new(0, 339, 0, 74)
+discord.Font = Enum.Font.SourceSans
+discord.Text = "(idiot_on_the_internetlol)"
+discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+discord.TextScaled = true
+discord.TextSize = 14.000
+discord.TextWrapped = true
 
 UICorner_5.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_5.Parent = cum2
+UICorner_5.Parent = discord
 
 UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
 UIGradient_5.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_5.Parent = cum2
-
-cum4.Name = "cum 4"
-cum4.Parent = opening
-cum4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cum4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-cum4.BorderSizePixel = 0
-cum4.Position = UDim2.new(0.571428597, 0, 0.714092135, 0)
-cum4.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
-cum4.Font = Enum.Font.SourceSans
-cum4.Text = "cum"
-cum4.TextColor3 = Color3.fromRGB(0, 0, 0)
-cum4.TextScaled = true
-cum4.TextSize = 14.000
-cum4.TextWrapped = true
-
-UICorner_6.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_6.Parent = cum4
-
-UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_6.Parent = cum4
-
-cum3.Name = "cum 3"
-cum3.Parent = opening
-cum3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cum3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-cum3.BorderSizePixel = 0
-cum3.Position = UDim2.new(0.19436346, 0, 0.714092135, 0)
-cum3.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
-cum3.Font = Enum.Font.SourceSans
-cum3.Text = "cum"
-cum3.TextColor3 = Color3.fromRGB(0, 0, 0)
-cum3.TextScaled = true
-cum3.TextSize = 14.000
-cum3.TextWrapped = true
-
-UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_7.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_7.Parent = cum3
-
-UICorner_7.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_7.Parent = cum3
+UIGradient_5.Parent = discord
 
 tab.Name = "tab"
 tab.Parent = ScreenGui
@@ -225,7 +177,7 @@ title_2.BorderSizePixel = 0
 title_2.Position = UDim2.new(0.339164227, 0, 0.032520324, 0)
 title_2.Size = UDim2.new(0.300000012, 0, 0.064000003, 64)
 title_2.Font = Enum.Font.SourceSans
-title_2.Text = "good job you did it"
+title_2.Text = "teleports"
 title_2.TextColor3 = Color3.fromRGB(170, 158, 149)
 title_2.TextScaled = true
 title_2.TextSize = 14.000
@@ -238,12 +190,12 @@ UIPadding_2.PaddingLeft = UDim.new(0.00999999978, 0)
 UIPadding_2.PaddingRight = UDim.new(0.00999999978, 0)
 UIPadding_2.PaddingTop = UDim.new(0.00999999978, 0)
 
-UICorner_8.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_8.Parent = title_2
+UICorner_6.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_6.Parent = title_2
 
-UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_8.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_8.Parent = title_2
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_6.Parent = title_2
 
 fc_2.Name = "fc"
 fc_2.Parent = tab
@@ -259,19 +211,19 @@ fc_2.TextScaled = true
 fc_2.TextSize = 14.000
 fc_2.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_9.Parent = fc_2
+UICorner_7.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_7.Parent = fc_2
 
-UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_9.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_9.Parent = fc_2
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_7.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_7.Parent = fc_2
 
-UICorner_10.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_10.Parent = tab
+UICorner_8.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_8.Parent = tab
 
-UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_10.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_10.Parent = tab
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_8.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_8.Parent = tab
 
 andyfromtcoaal.Name = "andy from tcoaal"
 andyfromtcoaal.Parent = tab
@@ -295,12 +247,12 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_11.Parent = TextButton
+UICorner_9.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_9.Parent = TextButton
 
-UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_11.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_11.Parent = TextButton
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_9.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_9.Parent = TextButton
 
 TextButton_2.Parent = tab
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -315,18 +267,39 @@ TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_12.Parent = TextButton_2
+UICorner_10.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_10.Parent = TextButton_2
 
-UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_12.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_12.Parent = TextButton_2
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_10.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_10.Parent = TextButton_2
+
+lobbyteleport.Name = "lobby teleport"
+lobbyteleport.Parent = tab
+lobbyteleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lobbyteleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lobbyteleport.BorderSizePixel = 0
+lobbyteleport.Position = UDim2.new(0.181729838, 0, 0.356368572, 0)
+lobbyteleport.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
+lobbyteleport.Font = Enum.Font.SourceSans
+lobbyteleport.Text = "lobby"
+lobbyteleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+lobbyteleport.TextScaled = true
+lobbyteleport.TextSize = 14.000
+lobbyteleport.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_11.Parent = lobbyteleport
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_11.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_11.Parent = lobbyteleport
 
 TextButton_3.Parent = tab
 TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0.181729838, 0, 0.356368572, 0)
+TextButton_3.Position = UDim2.new(0.19436346, 0, 0.714092135, 0)
 TextButton_3.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
 TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.Text = "cum"
@@ -335,36 +308,16 @@ TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_13.Parent = TextButton_3
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_12.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_12.Parent = TextButton_3
 
-UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_13.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_13.Parent = TextButton_3
-
-TextButton_4.Parent = tab
-TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.BorderSizePixel = 0
-TextButton_4.Position = UDim2.new(0.19436346, 0, 0.714092135, 0)
-TextButton_4.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
-TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "cum"
-TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextWrapped = true
-
-UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_14.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_14.Parent = TextButton_4
-
-UICorner_14.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_14.Parent = TextButton_4
+UICorner_12.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_12.Parent = TextButton_3
 
 -- Scripts:
 
-local function FYYB_fake_script() -- ScreenGui.gui open and close keybind 
+local function LCENYWA_fake_script() -- ScreenGui.gui open and close keybind 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local main = script.Parent
@@ -381,8 +334,8 @@ local function FYYB_fake_script() -- ScreenGui.gui open and close keybind
 	
 	
 end
-coroutine.wrap(FYYB_fake_script)()
-local function PAAVHAY_fake_script() -- fc.LocalScript 
+coroutine.wrap(LCENYWA_fake_script)()
+local function AIGG_fake_script() -- fc.LocalScript 
 	local script = Instance.new('LocalScript', fc)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -392,8 +345,8 @@ local function PAAVHAY_fake_script() -- fc.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PAAVHAY_fake_script)()
-local function ZGUF_fake_script() -- fc_2.LocalScript 
+coroutine.wrap(AIGG_fake_script)()
+local function RNZWT_fake_script() -- fc_2.LocalScript 
 	local script = Instance.new('LocalScript', fc_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -403,4 +356,29 @@ local function ZGUF_fake_script() -- fc_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZGUF_fake_script)()
+coroutine.wrap(RNZWT_fake_script)()
+local function WJLSUKA_fake_script() -- lobbyteleport.lobby 
+	local script = Instance.new('LocalScript', lobbyteleport)
+
+	wait(1)
+	player = game.Players.LocalPlayer
+	button = script.Parent
+	local debounce = false
+	
+	function teleport()
+		if not debounce then
+			debounce = true
+			LowerTorso = player.Character.LowerTorso
+			LowerTorso.CFrame = game.Workspace.spawn.CFrame
+		end
+	end
+	
+	button.MouseButton1Click:Connect(teleport)
+	while true do wait()
+		debounce = false
+		wait(1)
+	end
+	
+	
+end
+coroutine.wrap(WJLSUKA_fake_script)()
