@@ -1,4 +1,4 @@
-local ScreenGui = Instance.new("ScreenGui")
+ ScreenGui = Instance.new("ScreenGui")
 local opening = Instance.new("Frame")
 local title = Instance.new("TextLabel")
 local UIPadding = Instance.new("UIPadding")
@@ -10,7 +10,7 @@ local UICorner_2 = Instance.new("UICorner")
 local UIGradient_2 = Instance.new("UIGradient")
 local UICorner_3 = Instance.new("UICorner")
 local UIGradient_3 = Instance.new("UIGradient")
-local ogcum = Instance.new("TextButton")
+local ogcum = Instance.localnew("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local UIGradient_4 = Instance.new("UIGradient")
 local discord = Instance.new("TextLabel")
@@ -50,7 +50,7 @@ opening.Parent = ScreenGui
 opening.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 opening.BorderColor3 = Color3.fromRGB(0, 0, 0)
 opening.BorderSizePixel = 0
-opening.Position = UDim2.new(0.193643957, 0, 0.05771745, 0)
+opening.Position = UDim2.new(0.149396151, 0, 0.0491808653, 0)
 opening.Size = UDim2.new(0.699999988, 0, 0.899999976, 0)
 
 title.Name = "title"
@@ -165,7 +165,7 @@ tab.Parent = ScreenGui
 tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 tab.BorderColor3 = Color3.fromRGB(0, 0, 0)
 tab.BorderSizePixel = 0
-tab.Position = UDim2.new(0.192963704, 0, 0.0491808653, 0)
+tab.Position = UDim2.new(0.149396658, 0, 0.0491808653, 0)
 tab.Size = UDim2.new(0.699999988, 0, 0.899999976, 0)
 tab.Visible = false
 
@@ -317,7 +317,7 @@ UICorner_12.Parent = TextButton_3
 
 -- Scripts:
 
-local function SCQGZ_fake_script() -- ScreenGui.gui open and close keybind 
+local function GAITDO_fake_script() -- ScreenGui.gui open and close keybind 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local main = script.Parent
@@ -334,8 +334,8 @@ local function SCQGZ_fake_script() -- ScreenGui.gui open and close keybind
 	
 	
 end
-coroutine.wrap(SCQGZ_fake_script)()
-local function TATZHR_fake_script() -- fc.LocalScript 
+coroutine.wrap(GAITDO_fake_script)()
+local function YNWTAYU_fake_script() -- fc.LocalScript 
 	local script = Instance.new('LocalScript', fc)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -345,8 +345,8 @@ local function TATZHR_fake_script() -- fc.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TATZHR_fake_script)()
-local function OMWL_fake_script() -- fc_2.LocalScript 
+coroutine.wrap(YNWTAYU_fake_script)()
+local function EOVSNQM_fake_script() -- fc_2.LocalScript 
 	local script = Instance.new('LocalScript', fc_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -356,29 +356,12 @@ local function OMWL_fake_script() -- fc_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OMWL_fake_script)()
-local function RJEIEMT_fake_script() -- lobbyteleport.lobby 
+coroutine.wrap(EOVSNQM_fake_script)()
+local function LOJRPSR_fake_script() -- lobbyteleport.lobby 
 	local script = Instance.new('LocalScript', lobbyteleport)
 
-	wait(1)
-	player = game.Players.LocalPlayer
-	button = script.Parent
-	local debounce = false
-	
-	function teleport()
-		if not debounce then
-			debounce = true
-			LowerTorso = player.Character.LowerTorso
-			LowerTorso.CFrame = game.Workspace.spawn.CFrame
-		end
-	end
-	
-	button.MouseButton1Click:Connect(teleport)
-	while true do wait()
-		debounce = false
-		wait(1)
-	end
-	
-	
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7951, 35.5, 1612.25)
+	end)
 end
-coroutine.wrap(RJEIEMT_fake_script)()
+coroutine.wrap(LOJRPSR_fake_script)()
