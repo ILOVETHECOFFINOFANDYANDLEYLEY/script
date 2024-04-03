@@ -5,7 +5,7 @@ local UIPadding = Instance.new("UIPadding")
 local UICorner = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
 local ashleymybeloved = Instance.new("ImageLabel")
-local fc = Instance.new("TextButton")
+local teleport = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local UIGradient_2 = Instance.new("UIGradient")
 local UICorner_3 = Instance.new("UICorner")
@@ -16,29 +16,61 @@ local UIGradient_4 = Instance.new("UIGradient")
 local discord = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 local UIGradient_5 = Instance.new("UIGradient")
-local tab = Instance.new("Frame")
-local title_2 = Instance.new("TextLabel")
-local UIPadding_2 = Instance.new("UIPadding")
+local thehackheart = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local UIGradient_6 = Instance.new("UIGradient")
-local fc_2 = Instance.new("TextButton")
+local tlport = Instance.new("Frame")
+local title_2 = Instance.new("TextLabel")
+local UIPadding_2 = Instance.new("UIPadding")
 local UICorner_7 = Instance.new("UICorner")
 local UIGradient_7 = Instance.new("UIGradient")
+local fatal = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
 local UIGradient_8 = Instance.new("UIGradient")
-local andyfromtcoaal = Instance.new("ImageLabel")
-local TextButton = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local UIGradient_9 = Instance.new("UIGradient")
-local TextButton_2 = Instance.new("TextButton")
+local andyfromtcoaal = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
 local UIGradient_10 = Instance.new("UIGradient")
-local lobbyteleport = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local UIGradient_11 = Instance.new("UIGradient")
-local TextButton_3 = Instance.new("TextButton")
-local UIGradient_12 = Instance.new("UIGradient")
+local lobbyteleport = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local TextButton_3 = Instance.new("TextButton")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local hak = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_14 = Instance.new("UIGradient")
+local THEHACK = Instance.new("Frame")
+local title_3 = Instance.new("TextLabel")
+local UIPadding_3 = Instance.new("UIPadding")
+local UICorner_15 = Instance.new("UICorner")
+local UIGradient_15 = Instance.new("UIGradient")
+local fchot = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_16 = Instance.new("UIGradient")
+local UICorner_17 = Instance.new("UICorner")
+local UIGradient_17 = Instance.new("UIGradient")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UIGradient_18 = Instance.new("UIGradient")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_19 = Instance.new("UIGradient")
+local spamtoolomg = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local UIGradient_20 = Instance.new("UIGradient")
+local TextButton_6 = Instance.new("TextButton")
+local UIGradient_21 = Instance.new("UIGradient")
+local UICorner_21 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local tp = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UIGradient_22 = Instance.new("UIGradient")
 
 --Properties:
 
@@ -90,26 +122,26 @@ ashleymybeloved.Position = UDim2.new(0.792031109, 0, 0.016260162, 0)
 ashleymybeloved.Size = UDim2.new(0.170000002, 0, 0.123000003, 0)
 ashleymybeloved.Image = "rbxassetid://16990833933"
 
-fc.Name = "fc"
-fc.Parent = opening
-fc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fc.BorderColor3 = Color3.fromRGB(0, 0, 0)
-fc.BorderSizePixel = 0
-fc.Position = UDim2.new(0, 0, 0.115176149, 0)
-fc.Size = UDim2.new(0, 200, 0, 50)
-fc.Font = Enum.Font.SourceSans
-fc.Text = "switch"
-fc.TextColor3 = Color3.fromRGB(0, 0, 0)
-fc.TextScaled = true
-fc.TextSize = 14.000
-fc.TextWrapped = true
+teleport.Name = "teleport"
+teleport.Parent = opening
+teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+teleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+teleport.BorderSizePixel = 0
+teleport.Position = UDim2.new(0, 0, 0.115176149, 0)
+teleport.Size = UDim2.new(0, 200, 0, 50)
+teleport.Font = Enum.Font.SourceSans
+teleport.Text = "teleports"
+teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+teleport.TextScaled = true
+teleport.TextSize = 14.000
+teleport.TextWrapped = true
 
 UICorner_2.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_2.Parent = fc
+UICorner_2.Parent = teleport
 
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
 UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_2.Parent = fc
+UIGradient_2.Parent = teleport
 
 UICorner_3.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_3.Parent = opening
@@ -160,17 +192,38 @@ UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fr
 UIGradient_5.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
 UIGradient_5.Parent = discord
 
-tab.Name = "tab"
-tab.Parent = ScreenGui
-tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-tab.BorderColor3 = Color3.fromRGB(0, 0, 0)
-tab.BorderSizePixel = 0
-tab.Position = UDim2.new(0.149396658, 0, 0.0491808653, 0)
-tab.Size = UDim2.new(0.699999988, 0, 0.899999976, 0)
-tab.Visible = false
+thehackheart.Name = "the hack :heart:"
+thehackheart.Parent = opening
+thehackheart.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+thehackheart.BorderColor3 = Color3.fromRGB(0, 0, 0)
+thehackheart.BorderSizePixel = 0
+thehackheart.Position = UDim2.new(-0.000972478942, 0, 0.218157187, 0)
+thehackheart.Size = UDim2.new(0, 200, 0, 50)
+thehackheart.Font = Enum.Font.SourceSans
+thehackheart.Text = "the hack"
+thehackheart.TextColor3 = Color3.fromRGB(0, 0, 0)
+thehackheart.TextScaled = true
+thehackheart.TextSize = 14.000
+thehackheart.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_6.Parent = thehackheart
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_6.Parent = thehackheart
+
+tlport.Name = "tlport"
+tlport.Parent = ScreenGui
+tlport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tlport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tlport.BorderSizePixel = 0
+tlport.Position = UDim2.new(0.149396658, 0, 0.0491808653, 0)
+tlport.Size = UDim2.new(0.699999988, 0, 0.899999976, 0)
+tlport.Visible = false
 
 title_2.Name = "title"
-title_2.Parent = tab
+title_2.Parent = tlport
 title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 title_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 title_2.BorderSizePixel = 0
@@ -190,43 +243,43 @@ UIPadding_2.PaddingLeft = UDim.new(0.00999999978, 0)
 UIPadding_2.PaddingRight = UDim.new(0.00999999978, 0)
 UIPadding_2.PaddingTop = UDim.new(0.00999999978, 0)
 
-UICorner_6.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_6.Parent = title_2
-
-UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_6.Parent = title_2
-
-fc_2.Name = "fc"
-fc_2.Parent = tab
-fc_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fc_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-fc_2.BorderSizePixel = 0
-fc_2.Position = UDim2.new(0, 0, 0.115176149, 0)
-fc_2.Size = UDim2.new(0, 200, 0, 50)
-fc_2.Font = Enum.Font.SourceSans
-fc_2.Text = "switch"
-fc_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-fc_2.TextScaled = true
-fc_2.TextSize = 14.000
-fc_2.TextWrapped = true
-
 UICorner_7.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_7.Parent = fc_2
+UICorner_7.Parent = title_2
 
 UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
 UIGradient_7.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_7.Parent = fc_2
+UIGradient_7.Parent = title_2
+
+fatal.Name = "fatal"
+fatal.Parent = tlport
+fatal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fatal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fatal.BorderSizePixel = 0
+fatal.Position = UDim2.new(0, 0, 0.115176149, 0)
+fatal.Size = UDim2.new(0, 200, 0, 50)
+fatal.Font = Enum.Font.SourceSans
+fatal.Text = "credits"
+fatal.TextColor3 = Color3.fromRGB(0, 0, 0)
+fatal.TextScaled = true
+fatal.TextSize = 14.000
+fatal.TextWrapped = true
 
 UICorner_8.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_8.Parent = tab
+UICorner_8.Parent = fatal
 
 UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
 UIGradient_8.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_8.Parent = tab
+UIGradient_8.Parent = fatal
+
+UICorner_9.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_9.Parent = tlport
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_9.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_9.Parent = tlport
 
 andyfromtcoaal.Name = "andy from tcoaal"
-andyfromtcoaal.Parent = tab
+andyfromtcoaal.Parent = tlport
 andyfromtcoaal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 andyfromtcoaal.BorderColor3 = Color3.fromRGB(0, 0, 0)
 andyfromtcoaal.BorderSizePixel = 0
@@ -234,7 +287,7 @@ andyfromtcoaal.Position = UDim2.new(0.011661808, 0, 0.760162592, 0)
 andyfromtcoaal.Size = UDim2.new(0.170000002, 0, 0.123000003, 0)
 andyfromtcoaal.Image = "rbxassetid://16991540227"
 
-TextButton.Parent = tab
+TextButton.Parent = tlport
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
@@ -247,14 +300,14 @@ TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_9.Parent = TextButton
+UICorner_10.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_10.Parent = TextButton
 
-UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_9.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_9.Parent = TextButton
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_10.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_10.Parent = TextButton
 
-TextButton_2.Parent = tab
+TextButton_2.Parent = tlport
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.BorderSizePixel = 0
@@ -267,15 +320,15 @@ TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
-UICorner_10.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_10.Parent = TextButton_2
+UICorner_11.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_11.Parent = TextButton_2
 
-UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_10.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_10.Parent = TextButton_2
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_11.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_11.Parent = TextButton_2
 
 lobbyteleport.Name = "lobby teleport"
-lobbyteleport.Parent = tab
+lobbyteleport.Parent = tlport
 lobbyteleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 lobbyteleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
 lobbyteleport.BorderSizePixel = 0
@@ -288,14 +341,14 @@ lobbyteleport.TextScaled = true
 lobbyteleport.TextSize = 14.000
 lobbyteleport.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_11.Parent = lobbyteleport
+UICorner_12.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_12.Parent = lobbyteleport
 
-UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_11.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_11.Parent = lobbyteleport
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_12.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_12.Parent = lobbyteleport
 
-TextButton_3.Parent = tab
+TextButton_3.Parent = tlport
 TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderSizePixel = 0
@@ -308,16 +361,212 @@ TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 
-UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_12.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
-UIGradient_12.Parent = TextButton_3
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_13.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_13.Parent = TextButton_3
 
-UICorner_12.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_12.Parent = TextButton_3
+UICorner_13.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_13.Parent = TextButton_3
+
+hak.Name = "hak"
+hak.Parent = tlport
+hak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hak.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hak.BorderSizePixel = 0
+hak.Position = UDim2.new(0, 0, 0.219512194, 0)
+hak.Size = UDim2.new(0, 200, 0, 50)
+hak.Font = Enum.Font.SourceSans
+hak.Text = "the hack"
+hak.TextColor3 = Color3.fromRGB(0, 0, 0)
+hak.TextScaled = true
+hak.TextSize = 14.000
+hak.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_14.Parent = hak
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_14.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_14.Parent = hak
+
+THEHACK.Name = "THEHACK"
+THEHACK.Parent = ScreenGui
+THEHACK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+THEHACK.BorderColor3 = Color3.fromRGB(0, 0, 0)
+THEHACK.BorderSizePixel = 0
+THEHACK.Position = UDim2.new(0.149396658, 0, 0.0491808653, 0)
+THEHACK.Size = UDim2.new(0.699999988, 0, 0.899999976, 0)
+THEHACK.Visible = false
+
+title_3.Name = "title"
+title_3.Parent = THEHACK
+title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_3.BorderSizePixel = 0
+title_3.Position = UDim2.new(0.339164227, 0, 0.032520324, 0)
+title_3.Size = UDim2.new(0.300000012, 0, 0.064000003, 64)
+title_3.Font = Enum.Font.SourceSans
+title_3.Text = "the hack"
+title_3.TextColor3 = Color3.fromRGB(170, 158, 149)
+title_3.TextScaled = true
+title_3.TextSize = 14.000
+title_3.TextStrokeColor3 = Color3.fromRGB(170, 158, 149)
+title_3.TextWrapped = true
+
+UIPadding_3.Parent = title_3
+UIPadding_3.PaddingBottom = UDim.new(0.00999999978, 0)
+UIPadding_3.PaddingLeft = UDim.new(0.00999999978, 0)
+UIPadding_3.PaddingRight = UDim.new(0.00999999978, 0)
+UIPadding_3.PaddingTop = UDim.new(0.00999999978, 0)
+
+UICorner_15.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_15.Parent = title_3
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_15.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_15.Parent = title_3
+
+fchot.Name = "fc hot"
+fchot.Parent = THEHACK
+fchot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fchot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fchot.BorderSizePixel = 0
+fchot.Position = UDim2.new(0, 0, 0.115176149, 0)
+fchot.Size = UDim2.new(0, 200, 0, 50)
+fchot.Font = Enum.Font.SourceSans
+fchot.Text = "credits"
+fchot.TextColor3 = Color3.fromRGB(0, 0, 0)
+fchot.TextScaled = true
+fchot.TextSize = 14.000
+fchot.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_16.Parent = fchot
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_16.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_16.Parent = fchot
+
+UICorner_17.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_17.Parent = THEHACK
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_17.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_17.Parent = THEHACK
+
+TextButton_4.Parent = THEHACK
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.571428597, 0, 0.714092135, 0)
+TextButton_4.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "cum"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_18.Parent = TextButton_4
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_18.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_18.Parent = TextButton_4
+
+TextButton_5.Parent = THEHACK
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.571428597, 0, 0.356368572, 0)
+TextButton_5.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "cum"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_19.Parent = TextButton_5
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_19.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_19.Parent = TextButton_5
+
+spamtoolomg.Name = "spam tool omg"
+spamtoolomg.Parent = THEHACK
+spamtoolomg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+spamtoolomg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+spamtoolomg.BorderSizePixel = 0
+spamtoolomg.Position = UDim2.new(0.181729838, 0, 0.356368572, 0)
+spamtoolomg.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
+spamtoolomg.Font = Enum.Font.SourceSans
+spamtoolomg.Text = "spam tool"
+spamtoolomg.TextColor3 = Color3.fromRGB(0, 0, 0)
+spamtoolomg.TextScaled = true
+spamtoolomg.TextSize = 14.000
+spamtoolomg.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_20.Parent = spamtoolomg
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_20.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_20.Parent = spamtoolomg
+
+TextButton_6.Parent = THEHACK
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.19436346, 0, 0.714092135, 0)
+TextButton_6.Size = UDim2.new(0.240999997, 0, 0.170000002, 0)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "cum"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_21.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_21.Parent = TextButton_6
+
+UICorner_21.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_21.Parent = TextButton_6
+
+ImageLabel.Parent = THEHACK
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.440532953, 0, 0.525745273, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxassetid://16992515053"
+
+tp.Name = "tp "
+tp.Parent = THEHACK
+tp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp.BorderSizePixel = 0
+tp.Position = UDim2.new(0, 0, 0.219512194, 0)
+tp.Size = UDim2.new(0, 200, 0, 50)
+tp.Font = Enum.Font.SourceSans
+tp.Text = "teleport"
+tp.TextColor3 = Color3.fromRGB(0, 0, 0)
+tp.TextScaled = true
+tp.TextSize = 14.000
+tp.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_22.Parent = tp
+
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(58, 58, 58)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_22.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(0.50, 0.19), NumberSequenceKeypoint.new(1.00, 0.00)}
+UIGradient_22.Parent = tp
 
 -- Scripts:
 
-local function MXZEDY_fake_script() -- ScreenGui.gui open and close keybind 
+local function MRFTOH_fake_script() -- ScreenGui.gui open and close keybind 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local main = script.Parent
@@ -334,20 +583,31 @@ local function MXZEDY_fake_script() -- ScreenGui.gui open and close keybind
 	
 	
 end
-coroutine.wrap(MXZEDY_fake_script)()
-local function GBFQ_fake_script() -- fc.LocalScript 
-	local script = Instance.new('LocalScript', fc)
+coroutine.wrap(MRFTOH_fake_script)()
+local function JAKYQC_fake_script() -- teleport.LocalScript 
+	local script = Instance.new('LocalScript', teleport)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		if script.Parent.Parent.Visible == true then
 			script.Parent.Parent.Visible = false
-			script.Parent.Parent.Parent.tab.Visible = true
+			script.Parent.Parent.Parent.tlport.Visible = true
 		end
 	end)
 end
-coroutine.wrap(GBFQ_fake_script)()
-local function SRAYAZ_fake_script() -- fc_2.LocalScript 
-	local script = Instance.new('LocalScript', fc_2)
+coroutine.wrap(JAKYQC_fake_script)()
+local function DMIV_fake_script() -- thehackheart.LocalScript 
+	local script = Instance.new('LocalScript', thehackheart)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Visible == true then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.THEHACK.Visible = true
+		end
+	end)
+end
+coroutine.wrap(DMIV_fake_script)()
+local function CDBVRO_fake_script() -- fatal.LocalScript 
+	local script = Instance.new('LocalScript', fatal)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		if script.Parent.Parent.Visible == true then
@@ -356,12 +616,81 @@ local function SRAYAZ_fake_script() -- fc_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SRAYAZ_fake_script)()
-local function WTQTXOH_fake_script() -- lobbyteleport.lobby 
+coroutine.wrap(CDBVRO_fake_script)()
+local function CUVICP_fake_script() -- lobbyteleport.lobby 
 	local script = Instance.new('LocalScript', lobbyteleport)
 
 	script.Parent.MouseButton1Click:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7951, 35.5, 1612.25)
 	end)
 end
-coroutine.wrap(WTQTXOH_fake_script)()
+coroutine.wrap(CUVICP_fake_script)()
+local function NKLKIZB_fake_script() -- hak.LocalScript 
+	local script = Instance.new('LocalScript', hak)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Visible == true then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.THEHACK.Visible = true
+		end
+	end)
+end
+coroutine.wrap(NKLKIZB_fake_script)()
+local function ARDOVK_fake_script() -- fchot.LocalScript 
+	local script = Instance.new('LocalScript', fchot)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Visible == true then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.opening.Visible = true
+		end
+	end)
+end
+coroutine.wrap(ARDOVK_fake_script)()
+local function YXMLYUG_fake_script() -- spamtoolomg.lobby 
+	local script = Instance.new('LocalScript', spamtoolomg)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7951, 35.5, 1612.25)
+	end)
+end
+coroutine.wrap(YXMLYUG_fake_script)()
+local function AFPTLK_fake_script() -- spamtoolomg.code made 100% by me 
+	local script = Instance.new('LocalScript', spamtoolomg)
+
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	local spamtool = Instance.new("Tool")
+	spamtool.RequiresHandle = false
+	spamtool.Name = 'Spam Tool'
+	spamtool.ToolTip = "Uses every attack in the server."
+	spamtool.CanBeDropped = false
+	spamtool.Activated:connect(function()
+		local pos = mouse.Hit+Vector3.new(0,2.5,0)
+	
+		for Index, Value in next, game:GetDescendants() do
+			if Value:IsA("Tool") then
+				if Value:FindFirstChild("RemoteEvent") then
+					if Value.Name ~= "Double Cherry" and Value.Name ~= "DETERMINATION" and Value.Name ~= "Sickness" and Value.Name ~= "Dodge" and Value.Name ~= "Block" then
+						Value.RemoteEvent:FireServer(pos.X,pos.Y,pos.Z);
+					end
+				end;
+			end;
+		end;
+	end)
+	spamtool.Parent = game.Players.LocalPlayer.Backpack
+	
+	
+	
+end
+coroutine.wrap(AFPTLK_fake_script)()
+local function JGFVKO_fake_script() -- tp.LocalScript 
+	local script = Instance.new('LocalScript', tp)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Visible == true then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.tlport.Visible = true
+		end
+	end)
+end
+coroutine.wrap(JGFVKO_fake_script)()
