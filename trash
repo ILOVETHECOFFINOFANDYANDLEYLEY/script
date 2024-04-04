@@ -1,4 +1,5 @@
 local ScreenGui = Instance.new("ScreenGui")
+local mainframe = Instance.new("Frame")
 local Scroll = Instance.new("ScrollingFrame")
 local Snowdin = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
@@ -40,14 +41,22 @@ local UICorner_14 = Instance.new("UICorner")
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
+mainframe.Name = "mainframe"
+mainframe.Parent = ScreenGui
+mainframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mainframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainframe.BorderSizePixel = 0
+mainframe.Position = UDim2.new(0.199455351, 0, 0.234146357, 0)
+mainframe.Size = UDim2.new(0.600000143, 0, 0.530487716, 0)
+
 Scroll.Name = "Scroll"
-Scroll.Parent = ScreenGui
+Scroll.Parent = mainframe
 Scroll.Active = true
 Scroll.BackgroundColor3 = Color3.fromRGB(157, 157, 157)
 Scroll.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Scroll.BorderSizePixel = 0
-Scroll.Position = UDim2.new(0.499578744, 0, 0.234146357, 0)
-Scroll.Size = UDim2.new(0.299196005, 0, 0.530487776, 0)
+Scroll.Position = UDim2.new(0.499578774, 0, 0, 0)
+Scroll.Size = UDim2.new(0.500421286, 0, 0.999345005, 0)
 Scroll.ZIndex = 2
 
 Snowdin.Name = "Snowdin"
@@ -119,7 +128,7 @@ gastersvoid.Parent = Scroll
 gastersvoid.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
 gastersvoid.BorderColor3 = Color3.fromRGB(0, 0, 0)
 gastersvoid.BorderSizePixel = 0
-gastersvoid.Position = UDim2.new(0, 0, 0.0615097955, 0)
+gastersvoid.Position = UDim2.new(0, 0, 0.308303863, 0)
 gastersvoid.Size = UDim2.new(0, 98, 0, 82)
 gastersvoid.ZIndex = 2
 gastersvoid.Font = Enum.Font.SourceSans
@@ -151,7 +160,7 @@ doodlesphere.Parent = Scroll
 doodlesphere.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
 doodlesphere.BorderColor3 = Color3.fromRGB(0, 0, 0)
 doodlesphere.BorderSizePixel = 0
-doodlesphere.Position = UDim2.new(0, 0, 0.0615097955, 0)
+doodlesphere.Position = UDim2.new(0.476113379, 0, 0.308505923, 0)
 doodlesphere.Size = UDim2.new(0, 98, 0, 82)
 doodlesphere.ZIndex = 2
 doodlesphere.Font = Enum.Font.SourceSans
@@ -183,12 +192,12 @@ UICorner_8.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_8.Parent = Lobby
 
 thecoolestthingever.Name = "the coolest thing ever"
-thecoolestthingever.Parent = ScreenGui
+thecoolestthingever.Parent = mainframe
 thecoolestthingever.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
 thecoolestthingever.BorderColor3 = Color3.fromRGB(0, 0, 0)
 thecoolestthingever.BorderSizePixel = 0
-thecoolestthingever.Position = UDim2.new(0.19945541, 0, 0.234146357, 0)
-thecoolestthingever.Size = UDim2.new(0.600000024, 0, 0.530487776, 0)
+thecoolestthingever.Position = UDim2.new(-3.4623973e-08, 0, 0, 0)
+thecoolestthingever.Size = UDim2.new(0.799455404, 0, 0.999345005, 0)
 
 ImageLabel.Parent = thecoolestthingever
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -237,13 +246,13 @@ UICorner_10.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_10.Parent = thehack
 
 thehackedition.Name = "thehackedition"
-thehackedition.Parent = ScreenGui
+thehackedition.Parent = mainframe
 thehackedition.Active = true
 thehackedition.BackgroundColor3 = Color3.fromRGB(157, 157, 157)
 thehackedition.BorderColor3 = Color3.fromRGB(0, 0, 0)
 thehackedition.BorderSizePixel = 0
-thehackedition.Position = UDim2.new(0.499578744, 0, 0.234146357, 0)
-thehackedition.Size = UDim2.new(0.299196005, 0, 0.530487776, 0)
+thehackedition.Position = UDim2.new(0.499578774, 0, 0, 0)
+thehackedition.Size = UDim2.new(0.500421286, 0, 0.999345005, 0)
 thehackedition.Visible = false
 thehackedition.ZIndex = 2
 
@@ -320,7 +329,7 @@ UICorner_14.Parent = noblindness
 
 -- Scripts:
 
-local function NDDQONW_fake_script() -- Snowdin.LocalScript 
+local function LWMY_fake_script() -- Snowdin.LocalScript 
 	local script = Instance.new('LocalScript', Snowdin)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -328,8 +337,8 @@ local function NDDQONW_fake_script() -- Snowdin.LocalScript
 	end)
 	
 end
-coroutine.wrap(NDDQONW_fake_script)()
-local function HPDDQS_fake_script() -- waterfall.LocalScript 
+coroutine.wrap(LWMY_fake_script)()
+local function RVVM_fake_script() -- waterfall.LocalScript 
 	local script = Instance.new('LocalScript', waterfall)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -338,8 +347,8 @@ local function HPDDQS_fake_script() -- waterfall.LocalScript
 	
 	
 end
-coroutine.wrap(HPDDQS_fake_script)()
-local function ZYRVZH_fake_script() -- hotland.LocalScript 
+coroutine.wrap(RVVM_fake_script)()
+local function MULBNUF_fake_script() -- hotland.LocalScript 
 	local script = Instance.new('LocalScript', hotland)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -349,8 +358,8 @@ local function ZYRVZH_fake_script() -- hotland.LocalScript
 	
 	
 end
-coroutine.wrap(ZYRVZH_fake_script)()
-local function OAHMV_fake_script() -- judgment.LocalScript 
+coroutine.wrap(MULBNUF_fake_script)()
+local function FUVP_fake_script() -- judgment.LocalScript 
 	local script = Instance.new('LocalScript', judgment)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -361,8 +370,8 @@ local function OAHMV_fake_script() -- judgment.LocalScript
 	
 	
 end
-coroutine.wrap(OAHMV_fake_script)()
-local function DJPOV_fake_script() -- gastersvoid.LocalScript 
+coroutine.wrap(FUVP_fake_script)()
+local function YTBJRU_fake_script() -- gastersvoid.LocalScript 
 	local script = Instance.new('LocalScript', gastersvoid)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -374,8 +383,8 @@ local function DJPOV_fake_script() -- gastersvoid.LocalScript
 	
 	
 end
-coroutine.wrap(DJPOV_fake_script)()
-local function BBZOYX_fake_script() -- fatalvoid.LocalScript 
+coroutine.wrap(YTBJRU_fake_script)()
+local function EEZHT_fake_script() -- fatalvoid.LocalScript 
 	local script = Instance.new('LocalScript', fatalvoid)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -387,8 +396,8 @@ local function BBZOYX_fake_script() -- fatalvoid.LocalScript
 	
 	
 end
-coroutine.wrap(BBZOYX_fake_script)()
-local function HZFE_fake_script() -- doodlesphere.LocalScript 
+coroutine.wrap(EEZHT_fake_script)()
+local function YHOLOLS_fake_script() -- doodlesphere.LocalScript 
 	local script = Instance.new('LocalScript', doodlesphere)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -400,16 +409,16 @@ local function HZFE_fake_script() -- doodlesphere.LocalScript
 	
 	
 end
-coroutine.wrap(HZFE_fake_script)()
-local function CMRXWL_fake_script() -- Lobby.lobby 
+coroutine.wrap(YHOLOLS_fake_script)()
+local function TAMKT_fake_script() -- Lobby.lobby 
 	local script = Instance.new('LocalScript', Lobby)
 
 	script.Parent.MouseButton1Click:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7951, 35.5, 1612.25)
 	end)
 end
-coroutine.wrap(CMRXWL_fake_script)()
-local function KXNQUPA_fake_script() -- teleportsswitch.switch to teleports 
+coroutine.wrap(TAMKT_fake_script)()
+local function LMWQ_fake_script() -- teleportsswitch.switch to teleports 
 	local script = Instance.new('LocalScript', teleportsswitch)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -427,8 +436,8 @@ local function KXNQUPA_fake_script() -- teleportsswitch.switch to teleports
 	
 	
 end
-coroutine.wrap(KXNQUPA_fake_script)()
-local function VACLAY_fake_script() -- teleportsswitch.teleports continued 
+coroutine.wrap(LMWQ_fake_script)()
+local function QKCSPP_fake_script() -- teleportsswitch.teleports continued 
 	local script = Instance.new('LocalScript', teleportsswitch)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -446,8 +455,8 @@ local function VACLAY_fake_script() -- teleportsswitch.teleports continued
 	
 	
 end
-coroutine.wrap(VACLAY_fake_script)()
-local function ASDMQ_fake_script() -- thehack.switch to the hack 
+coroutine.wrap(QKCSPP_fake_script)()
+local function AWULZM_fake_script() -- thehack.switch to the hack 
 	local script = Instance.new('LocalScript', thehack)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -465,8 +474,8 @@ local function ASDMQ_fake_script() -- thehack.switch to the hack
 	
 	
 end
-coroutine.wrap(ASDMQ_fake_script)()
-local function ZOLMJB_fake_script() -- thehack.the hack continued 
+coroutine.wrap(AWULZM_fake_script)()
+local function DPGAI_fake_script() -- thehack.the hack continued 
 	local script = Instance.new('LocalScript', thehack)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -484,8 +493,8 @@ local function ZOLMJB_fake_script() -- thehack.the hack continued
 	
 	
 end
-coroutine.wrap(ZOLMJB_fake_script)()
-local function UABKDLH_fake_script() -- spam.code made 100% by me 
+coroutine.wrap(DPGAI_fake_script)()
+local function GHUHD_fake_script() -- spam.code made 100% by me 
 	local script = Instance.new('LocalScript', spam)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -513,20 +522,92 @@ local function UABKDLH_fake_script() -- spam.code made 100% by me
 	
 	
 end
-coroutine.wrap(UABKDLH_fake_script)()
+coroutine.wrap(GHUHD_fake_script)()
+local function TEJO_fake_script() -- godmode.broken fresh 
+	local script = Instance.new('LocalScript', godmode)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8020.16, 12.6948, -54.0279)
+	end)
+end
+coroutine.wrap(TEJO_fake_script)()
+local function LNJJHSY_fake_script() -- mainframe.draggable 
+	local script = Instance.new('LocalScript', mainframe)
+
+		--smooth drag
+		local UserInputService = game:GetService("UserInputService")
+		local runService = (game:GetService("RunService"));
+	
+		local gui = script.Parent
+	
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+	
+		function Lerp(a, b, m)
+			return a + (b - a) * m
+		end;
+	
+		local lastMousePos
+		local lastGoalPos
+		local DRAG_SPEED = (8); -- // The speed of the UI darg.
+		function Update(dt)
+			if not (startPos) then return end;
+			if not (dragging) and (lastGoalPos) then
+				gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+				return 
+			end;
+	
+			local delta = (lastMousePos - UserInputService:GetMouseLocation())
+			local xGoal = (startPos.X.Offset - delta.X);
+			local yGoal = (startPos.Y.Offset - delta.Y);
+			lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+		end;
+	
+		gui.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = gui.Position
+				lastMousePos = UserInputService:GetMouseLocation()
+	
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+	
+		gui.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+	
+		runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(LNJJHSY_fake_script)()
+local function LDYJN_fake_script() -- ScreenGui.keybind 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local main = script.Parent
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	mouse.KeyDown:Connect(function(k) 
+		if k == "'" then
+			if main.Enabled == true then
+				main.Enabled = false
+			else
+				main.Enabled = true
+			end
+		end 
+	end)
+end
+coroutine.wrap(LDYJN_fake_script)()
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-	Text = "THE HACK made by error (greatest hacker)";
+	Text = "THE HACK made by error (idiot_on_the_internetlol)";
 	Font = Enum.Font.SourceSansBold;
 	Color = Color3.fromRGB(150, 0, 0);
 })
-local main = script.Parent
-local mouse = game.Players.LocalPlayer:GetMouse()
-mouse.KeyDown:Connect(function(k) 
-	if k == "'" then
-		if main.Enabled == true then
-			main.Enabled = false
-		else
-			main.Enabled = true
-		end
-	end 
-end)
