@@ -25,16 +25,52 @@ local UICorner_9 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local thehack = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
+local characters = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
 local thehackedition = Instance.new("ScrollingFrame")
 local spam = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local UIGridLayout_2 = Instance.new("UIGridLayout")
 local godmode = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local removeanticheat = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
-local noblindness = Instance.new("TextButton")
+local removeanticheat = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
+local noblindness = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local characters_2 = Instance.new("ScrollingFrame")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
+local omni404 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local hyperdust = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local xdust = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local shattered = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local infected = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local virus = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local final = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local badtimetrio = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local goodtimetrio = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local madness = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local murderer = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local ror = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local whitecorruption = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local tentaclemonster = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local souls = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local sponge = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
 
 --Properties:
 
@@ -245,6 +281,21 @@ thehack.TextSize = 14.000
 UICorner_10.CornerRadius = UDim.new(0.0799999982, 0)
 UICorner_10.Parent = thehack
 
+characters.Name = "characters"
+characters.Parent = thecoolestthingever
+characters.BackgroundColor3 = Color3.fromRGB(128, 128, 128)
+characters.BorderColor3 = Color3.fromRGB(0, 0, 0)
+characters.BorderSizePixel = 0
+characters.Position = UDim2.new(0, 0, 0.306452185, 0)
+characters.Size = UDim2.new(0.200000003, 0, 0.150000006, 0)
+characters.Font = Enum.Font.SourceSans
+characters.Text = "free characters & customs"
+characters.TextColor3 = Color3.fromRGB(0, 0, 0)
+characters.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_11.Parent = characters
+
 thehackedition.Name = "thehackedition"
 thehackedition.Parent = mainframe
 thehackedition.Active = true
@@ -270,8 +321,8 @@ spam.TextColor3 = Color3.fromRGB(0, 0, 0)
 spam.TextSize = 14.000
 spam.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_11.Parent = spam
+UICorner_12.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_12.Parent = spam
 
 UIGridLayout_2.Parent = thehackedition
 UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
@@ -290,8 +341,8 @@ godmode.TextColor3 = Color3.fromRGB(0, 0, 0)
 godmode.TextSize = 14.000
 godmode.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_12.Parent = godmode
+UICorner_13.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_13.Parent = godmode
 
 removeanticheat.Name = "remove anti cheat"
 removeanticheat.Parent = thehackedition
@@ -307,8 +358,8 @@ removeanticheat.TextColor3 = Color3.fromRGB(0, 0, 0)
 removeanticheat.TextSize = 14.000
 removeanticheat.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_13.Parent = removeanticheat
+UICorner_14.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_14.Parent = removeanticheat
 
 noblindness.Name = "no blindness"
 noblindness.Parent = thehackedition
@@ -324,12 +375,282 @@ noblindness.TextColor3 = Color3.fromRGB(0, 0, 0)
 noblindness.TextSize = 14.000
 noblindness.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0.0799999982, 0)
-UICorner_14.Parent = noblindness
+UICorner_15.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_15.Parent = noblindness
+
+characters_2.Name = "characters"
+characters_2.Parent = mainframe
+characters_2.Active = true
+characters_2.BackgroundColor3 = Color3.fromRGB(157, 157, 157)
+characters_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+characters_2.BorderSizePixel = 0
+characters_2.Position = UDim2.new(0.499578774, 0, 0, 0)
+characters_2.Size = UDim2.new(0.500421286, 0, 0.999345005, 0)
+characters_2.Visible = false
+characters_2.ZIndex = 2
+
+UIGridLayout_3.Parent = characters_2
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+
+omni404.Name = "omni 404"
+omni404.Parent = characters_2
+omni404.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+omni404.BorderColor3 = Color3.fromRGB(0, 0, 0)
+omni404.BorderSizePixel = 0
+omni404.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+omni404.Size = UDim2.new(0, 98, 0, 82)
+omni404.ZIndex = 2
+omni404.Font = Enum.Font.SourceSans
+omni404.Text = "omni 404"
+omni404.TextColor3 = Color3.fromRGB(0, 0, 0)
+omni404.TextSize = 14.000
+
+UICorner_16.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_16.Parent = omni404
+
+hyperdust.Name = "hyperdust"
+hyperdust.Parent = characters_2
+hyperdust.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+hyperdust.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hyperdust.BorderSizePixel = 0
+hyperdust.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+hyperdust.Size = UDim2.new(0, 98, 0, 82)
+hyperdust.ZIndex = 2
+hyperdust.Font = Enum.Font.SourceSans
+hyperdust.Text = "hyperdust"
+hyperdust.TextColor3 = Color3.fromRGB(0, 0, 0)
+hyperdust.TextSize = 14.000
+
+UICorner_17.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_17.Parent = hyperdust
+
+xdust.Name = "xdust"
+xdust.Parent = characters_2
+xdust.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+xdust.BorderColor3 = Color3.fromRGB(0, 0, 0)
+xdust.BorderSizePixel = 0
+xdust.Position = UDim2.new(0.46477735, 0, 0.0146907577, 0)
+xdust.Size = UDim2.new(0, 98, 0, 82)
+xdust.ZIndex = 2
+xdust.Font = Enum.Font.SourceSans
+xdust.Text = "x-dust"
+xdust.TextColor3 = Color3.fromRGB(0, 0, 0)
+xdust.TextSize = 14.000
+
+UICorner_18.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_18.Parent = xdust
+
+shattered.Name = "shattered"
+shattered.Parent = characters_2
+shattered.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+shattered.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shattered.BorderSizePixel = 0
+shattered.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+shattered.Size = UDim2.new(0, 98, 0, 82)
+shattered.ZIndex = 2
+shattered.Font = Enum.Font.SourceSans
+shattered.Text = "shattered dream"
+shattered.TextColor3 = Color3.fromRGB(0, 0, 0)
+shattered.TextSize = 14.000
+
+UICorner_19.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_19.Parent = shattered
+
+infected.Name = "infected"
+infected.Parent = characters_2
+infected.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+infected.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infected.BorderSizePixel = 0
+infected.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+infected.Size = UDim2.new(0, 98, 0, 82)
+infected.ZIndex = 2
+infected.Font = Enum.Font.SourceSans
+infected.Text = "mix/infected"
+infected.TextColor3 = Color3.fromRGB(0, 0, 0)
+infected.TextSize = 14.000
+
+UICorner_20.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_20.Parent = infected
+
+virus.Name = "virus"
+virus.Parent = characters_2
+virus.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+virus.BorderColor3 = Color3.fromRGB(0, 0, 0)
+virus.BorderSizePixel = 0
+virus.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+virus.Size = UDim2.new(0, 98, 0, 82)
+virus.ZIndex = 2
+virus.Font = Enum.Font.SourceSans
+virus.Text = "virus 404"
+virus.TextColor3 = Color3.fromRGB(0, 0, 0)
+virus.TextSize = 14.000
+
+UICorner_21.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_21.Parent = virus
+
+final.Name = "final"
+final.Parent = characters_2
+final.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+final.BorderColor3 = Color3.fromRGB(0, 0, 0)
+final.BorderSizePixel = 0
+final.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+final.Size = UDim2.new(0, 98, 0, 82)
+final.ZIndex = 2
+final.Font = Enum.Font.SourceSans
+final.Text = "final 404"
+final.TextColor3 = Color3.fromRGB(0, 0, 0)
+final.TextSize = 14.000
+
+UICorner_22.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_22.Parent = final
+
+badtimetrio.Name = "bad time trio"
+badtimetrio.Parent = characters_2
+badtimetrio.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+badtimetrio.BorderColor3 = Color3.fromRGB(0, 0, 0)
+badtimetrio.BorderSizePixel = 0
+badtimetrio.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+badtimetrio.Size = UDim2.new(0, 98, 0, 82)
+badtimetrio.ZIndex = 2
+badtimetrio.Font = Enum.Font.SourceSans
+badtimetrio.Text = "bad time trio"
+badtimetrio.TextColor3 = Color3.fromRGB(0, 0, 0)
+badtimetrio.TextSize = 14.000
+
+UICorner_23.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_23.Parent = badtimetrio
+
+goodtimetrio.Name = "good time trio"
+goodtimetrio.Parent = characters_2
+goodtimetrio.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+goodtimetrio.BorderColor3 = Color3.fromRGB(0, 0, 0)
+goodtimetrio.BorderSizePixel = 0
+goodtimetrio.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+goodtimetrio.Size = UDim2.new(0, 98, 0, 82)
+goodtimetrio.ZIndex = 2
+goodtimetrio.Font = Enum.Font.SourceSans
+goodtimetrio.Text = "good time trio"
+goodtimetrio.TextColor3 = Color3.fromRGB(0, 0, 0)
+goodtimetrio.TextSize = 14.000
+
+UICorner_24.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_24.Parent = goodtimetrio
+
+madness.Name = "madness"
+madness.Parent = characters_2
+madness.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+madness.BorderColor3 = Color3.fromRGB(0, 0, 0)
+madness.BorderSizePixel = 0
+madness.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+madness.Size = UDim2.new(0, 98, 0, 82)
+madness.ZIndex = 2
+madness.Font = Enum.Font.SourceSans
+madness.Text = "mad time trio"
+madness.TextColor3 = Color3.fromRGB(0, 0, 0)
+madness.TextSize = 14.000
+
+UICorner_25.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_25.Parent = madness
+
+murderer.Name = "murderer"
+murderer.Parent = characters_2
+murderer.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+murderer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+murderer.BorderSizePixel = 0
+murderer.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+murderer.Size = UDim2.new(0, 98, 0, 82)
+murderer.ZIndex = 2
+murderer.Font = Enum.Font.SourceSans
+murderer.Text = "murder time trio"
+murderer.TextColor3 = Color3.fromRGB(0, 0, 0)
+murderer.TextSize = 14.000
+
+UICorner_26.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_26.Parent = murderer
+
+ror.Name = "ror"
+ror.Parent = characters_2
+ror.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+ror.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ror.BorderSizePixel = 0
+ror.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+ror.Size = UDim2.new(0, 98, 0, 82)
+ror.ZIndex = 2
+ror.Font = Enum.Font.SourceSans
+ror.Text = "error time trio"
+ror.TextColor3 = Color3.fromRGB(0, 0, 0)
+ror.TextSize = 14.000
+
+UICorner_27.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_27.Parent = ror
+
+whitecorruption.Name = "white corruption"
+whitecorruption.Parent = characters_2
+whitecorruption.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+whitecorruption.BorderColor3 = Color3.fromRGB(0, 0, 0)
+whitecorruption.BorderSizePixel = 0
+whitecorruption.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+whitecorruption.Size = UDim2.new(0, 98, 0, 82)
+whitecorruption.ZIndex = 2
+whitecorruption.Font = Enum.Font.SourceSans
+whitecorruption.Text = "anti corruption"
+whitecorruption.TextColor3 = Color3.fromRGB(0, 0, 0)
+whitecorruption.TextSize = 14.000
+
+UICorner_28.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_28.Parent = whitecorruption
+
+tentaclemonster.Name = "tentacle monster"
+tentaclemonster.Parent = characters_2
+tentaclemonster.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+tentaclemonster.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tentaclemonster.BorderSizePixel = 0
+tentaclemonster.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+tentaclemonster.Size = UDim2.new(0, 98, 0, 82)
+tentaclemonster.ZIndex = 2
+tentaclemonster.Font = Enum.Font.SourceSans
+tentaclemonster.Text = "nighterror"
+tentaclemonster.TextColor3 = Color3.fromRGB(0, 0, 0)
+tentaclemonster.TextSize = 14.000
+
+UICorner_29.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_29.Parent = tentaclemonster
+
+souls.Name = "souls"
+souls.Parent = characters_2
+souls.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+souls.BorderColor3 = Color3.fromRGB(0, 0, 0)
+souls.BorderSizePixel = 0
+souls.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+souls.Size = UDim2.new(0, 98, 0, 82)
+souls.ZIndex = 2
+souls.Font = Enum.Font.SourceSans
+souls.Text = "soultale"
+souls.TextColor3 = Color3.fromRGB(0, 0, 0)
+souls.TextSize = 14.000
+
+UICorner_30.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_30.Parent = souls
+
+sponge.Name = "sponge"
+sponge.Parent = characters_2
+sponge.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+sponge.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sponge.BorderSizePixel = 0
+sponge.Position = UDim2.new(0.238897562, 0, 0.0114942184, 0)
+sponge.Size = UDim2.new(0, 98, 0, 82)
+sponge.ZIndex = 2
+sponge.Font = Enum.Font.SourceSans
+sponge.Text = "spongebob"
+sponge.TextColor3 = Color3.fromRGB(0, 0, 0)
+sponge.TextSize = 14.000
+
+UICorner_31.CornerRadius = UDim.new(0.0799999982, 0)
+UICorner_31.Parent = sponge
 
 -- Scripts:
 
-local function LWMY_fake_script() -- Snowdin.LocalScript 
+local function DJSNQA_fake_script() -- Snowdin.LocalScript 
 	local script = Instance.new('LocalScript', Snowdin)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -337,8 +658,8 @@ local function LWMY_fake_script() -- Snowdin.LocalScript
 	end)
 	
 end
-coroutine.wrap(LWMY_fake_script)()
-local function RVVM_fake_script() -- waterfall.LocalScript 
+coroutine.wrap(DJSNQA_fake_script)()
+local function YZOB_fake_script() -- waterfall.LocalScript 
 	local script = Instance.new('LocalScript', waterfall)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -347,8 +668,8 @@ local function RVVM_fake_script() -- waterfall.LocalScript
 	
 	
 end
-coroutine.wrap(RVVM_fake_script)()
-local function MULBNUF_fake_script() -- hotland.LocalScript 
+coroutine.wrap(YZOB_fake_script)()
+local function SUMTMXC_fake_script() -- hotland.LocalScript 
 	local script = Instance.new('LocalScript', hotland)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -358,8 +679,8 @@ local function MULBNUF_fake_script() -- hotland.LocalScript
 	
 	
 end
-coroutine.wrap(MULBNUF_fake_script)()
-local function FUVP_fake_script() -- judgment.LocalScript 
+coroutine.wrap(SUMTMXC_fake_script)()
+local function PNRINI_fake_script() -- judgment.LocalScript 
 	local script = Instance.new('LocalScript', judgment)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -370,8 +691,8 @@ local function FUVP_fake_script() -- judgment.LocalScript
 	
 	
 end
-coroutine.wrap(FUVP_fake_script)()
-local function YTBJRU_fake_script() -- gastersvoid.LocalScript 
+coroutine.wrap(PNRINI_fake_script)()
+local function PIKJZFO_fake_script() -- gastersvoid.LocalScript 
 	local script = Instance.new('LocalScript', gastersvoid)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -383,8 +704,8 @@ local function YTBJRU_fake_script() -- gastersvoid.LocalScript
 	
 	
 end
-coroutine.wrap(YTBJRU_fake_script)()
-local function EEZHT_fake_script() -- fatalvoid.LocalScript 
+coroutine.wrap(PIKJZFO_fake_script)()
+local function OALWH_fake_script() -- fatalvoid.LocalScript 
 	local script = Instance.new('LocalScript', fatalvoid)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -396,8 +717,8 @@ local function EEZHT_fake_script() -- fatalvoid.LocalScript
 	
 	
 end
-coroutine.wrap(EEZHT_fake_script)()
-local function YHOLOLS_fake_script() -- doodlesphere.LocalScript 
+coroutine.wrap(OALWH_fake_script)()
+local function OZFPM_fake_script() -- doodlesphere.LocalScript 
 	local script = Instance.new('LocalScript', doodlesphere)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -409,16 +730,16 @@ local function YHOLOLS_fake_script() -- doodlesphere.LocalScript
 	
 	
 end
-coroutine.wrap(YHOLOLS_fake_script)()
-local function TAMKT_fake_script() -- Lobby.lobby 
+coroutine.wrap(OZFPM_fake_script)()
+local function OIRFMVC_fake_script() -- Lobby.lobby 
 	local script = Instance.new('LocalScript', Lobby)
 
 	script.Parent.MouseButton1Click:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-7951, 35.5, 1612.25)
 	end)
 end
-coroutine.wrap(TAMKT_fake_script)()
-local function LMWQ_fake_script() -- teleportsswitch.switch to teleports 
+coroutine.wrap(OIRFMVC_fake_script)()
+local function FKEA_fake_script() -- teleportsswitch.switch to teleports 
 	local script = Instance.new('LocalScript', teleportsswitch)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -436,8 +757,8 @@ local function LMWQ_fake_script() -- teleportsswitch.switch to teleports
 	
 	
 end
-coroutine.wrap(LMWQ_fake_script)()
-local function QKCSPP_fake_script() -- teleportsswitch.teleports continued 
+coroutine.wrap(FKEA_fake_script)()
+local function JDBRZBK_fake_script() -- teleportsswitch.teleports continued 
 	local script = Instance.new('LocalScript', teleportsswitch)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -455,8 +776,8 @@ local function QKCSPP_fake_script() -- teleportsswitch.teleports continued
 	
 	
 end
-coroutine.wrap(QKCSPP_fake_script)()
-local function AWULZM_fake_script() -- thehack.switch to the hack 
+coroutine.wrap(JDBRZBK_fake_script)()
+local function TBXZT_fake_script() -- thehack.switch to the hack 
 	local script = Instance.new('LocalScript', thehack)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -474,8 +795,8 @@ local function AWULZM_fake_script() -- thehack.switch to the hack
 	
 	
 end
-coroutine.wrap(AWULZM_fake_script)()
-local function DPGAI_fake_script() -- thehack.the hack continued 
+coroutine.wrap(TBXZT_fake_script)()
+local function ITGBUC_fake_script() -- thehack.the hack continued 
 	local script = Instance.new('LocalScript', thehack)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -493,8 +814,65 @@ local function DPGAI_fake_script() -- thehack.the hack continued
 	
 	
 end
-coroutine.wrap(DPGAI_fake_script)()
-local function GHUHD_fake_script() -- spam.code made 100% by me 
+coroutine.wrap(ITGBUC_fake_script)()
+local function ZJWTBYZ_fake_script() -- characters.switch to characters 
+	local script = Instance.new('LocalScript', characters)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Parent.thehackedition.Visible == true then
+			script.Parent.Parent.Parent.thehackedition.Visible = false
+			if script.Parent.Parent.Parent.thehackedition.Active == true then
+				script.Parent.Parent.Parent.thehackedition.Active = false
+				
+				
+				
+				
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(ZJWTBYZ_fake_script)()
+local function IPWK_fake_script() -- characters.switch to characters the sequel 
+	local script = Instance.new('LocalScript', characters)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Parent.Scroll.Visible == true then
+			script.Parent.Parent.Parent.Scroll.Visible = false
+			if script.Parent.Parent.Parent.Scroll.Active == true then
+				script.Parent.Parent.Parent.Scroll.Active = false
+				
+				
+				
+				
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(IPWK_fake_script)()
+local function JLERHCQ_fake_script() -- characters.characters continued 
+	local script = Instance.new('LocalScript', characters)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		if script.Parent.Parent.Parent.characters.Visible == false then
+			script.Parent.Parent.Parent.characters.Visible = true
+			if script.Parent.Parent.Parent.characters.Active == false then
+				script.Parent.Parent.Parent.characters.Active = true
+	
+	
+	
+	
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(JLERHCQ_fake_script)()
+local function YHVVTY_fake_script() -- spam.code made 100% by me 
 	local script = Instance.new('LocalScript', spam)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -522,16 +900,16 @@ local function GHUHD_fake_script() -- spam.code made 100% by me
 	
 	
 end
-coroutine.wrap(GHUHD_fake_script)()
-local function TEJO_fake_script() -- godmode.broken fresh 
+coroutine.wrap(YHVVTY_fake_script)()
+local function NQDOY_fake_script() -- godmode.broken fresh 
 	local script = Instance.new('LocalScript', godmode)
 
 	script.Parent.MouseButton1Click:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8020.16, 12.6948, -54.0279)
 	end)
 end
-coroutine.wrap(TEJO_fake_script)()
-local function LNJJHSY_fake_script() -- mainframe.draggable 
+coroutine.wrap(NQDOY_fake_script)()
+local function CHMZ_fake_script() -- mainframe.draggable 
 	local script = Instance.new('LocalScript', mainframe)
 
 		--smooth drag
@@ -589,8 +967,27 @@ local function LNJJHSY_fake_script() -- mainframe.draggable
 	
 		runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(LNJJHSY_fake_script)()
-local function LDYJN_fake_script() -- ScreenGui.keybind 
+coroutine.wrap(CHMZ_fake_script)()
+local function NDQVE_fake_script() -- virus.virsu telpro 
+	local script = Instance.new('LocalScript', virus)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8018.09, 4, 193.009)
+	end)
+end
+coroutine.wrap(NDQVE_fake_script)()
+local function OWVETZ_fake_script() -- final.finality 
+	local script = Instance.new('LocalScript', final)
+
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-8018.68, 4, 179.963)
+	end)
+	script.Parent.MouseButton1Click:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-30178.6, 0.94512, -114.26)
+	end)
+end
+coroutine.wrap(OWVETZ_fake_script)()
+local function QJPZBP_fake_script() -- ScreenGui.keybind 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local main = script.Parent
@@ -605,9 +1002,4 @@ local function LDYJN_fake_script() -- ScreenGui.keybind
 		end 
 	end)
 end
-coroutine.wrap(LDYJN_fake_script)()
-game.StarterGui:SetCore("ChatMakeSystemMessage", {
-	Text = "THE HACK made by error (idiot_on_the_internetlol)";
-	Font = Enum.Font.SourceSansBold;
-	Color = Color3.fromRGB(150, 0, 0);
-})
+coroutine.wrap(QJPZBP_fake_script)()
