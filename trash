@@ -1035,3 +1035,8 @@ local function UFJCWH_fake_script() -- ScreenGui.keybind
 	end)
 end
 coroutine.wrap(UFJCWH_fake_script)()
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+    Text = "THE HACK made by error (idiot_on_the_internetlol)";
+    Font = Enum.Font.SourceSansBold;
+    Color = Color3.fromRGB(150, 0, 0);
+})
